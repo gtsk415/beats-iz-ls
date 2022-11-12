@@ -1,12 +1,19 @@
 @import "template/fonts";
 @import "template/normalize";
 @import "template/base";
-@import "template/variables.scss";
+@import "template/variables";
 @import "blocks/hero";
 @import "blocks/header";
-@import "blocks/features.scss";
-@import "blocks/feature.scss";
-@import "blocks/btn.scss";
+@import "blocks/features";
+@import "blocks/feature";
+@import "blocks/btn";
+@import "blocks/section";
+@import "blocks/headline__title";
+@import "blocks/benefits";
+@import "blocks/benefit";
+
+
+
 
 
 
