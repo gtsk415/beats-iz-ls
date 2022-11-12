@@ -1,4 +1,33 @@
 .hero {
-  background: url("../images/backgrounds/Ellipse-1.svg") right bottom no-repeat;
+  background: url("../images/backgrounds/Ellipse-1.svg") right center no-repeat;
   background-color: $gray;
+  height: 100vh;
+  min-height: 650px;
+}
+
+.hero__title-section {
+  width: 46%;
+  margin-bottom: 85px;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 25px 0 50px;
+}
+
+.hero__main-title {
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.hero__title-desc {
+  font-size: 21px;
+  margin-bottom: 45px;
+  padding-right: 10%;
 }
