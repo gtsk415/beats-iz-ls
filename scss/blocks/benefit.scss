@@ -1,6 +1,5 @@
 .benefit {
   text-align: center;
-
 }
 
 .benefit__image-wrapper {
@@ -8,6 +7,9 @@
   width: 126px;
   height: 126px;
   position: relative;
+  background: #F2F5F4;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .benefit__icon {
@@ -17,6 +19,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
+}
 
+.benefit__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 7px;
 }
