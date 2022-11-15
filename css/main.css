@@ -388,9 +388,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero {
-  background: url("../images/backgrounds/Ellipse-1.svg") right center no-repeat;
+  background: url("../../images/backgrounds/beats__solo__3.png") center right no-repeat;
   background-color: #F5F5F5;
-  height: 100vh;
+  width: 100%;
   min-height: 650px;
 }
 
@@ -650,6 +650,9 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .reviews__avatar {
