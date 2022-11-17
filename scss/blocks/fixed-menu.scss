@@ -11,9 +11,14 @@
   &--active {
     .fixed-menu__link {
       border-color: $red;
+
+      &:before {
+        content: "";
+        background: $red;
+        filter: none;
+      }
     }
   }
-
 }
 
 .fixed-menu__link {
@@ -30,10 +35,15 @@
     width: 9px;
     height: 9px;
     border-radius: 50%;
-    background: $red;
+    background: $black;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: opacity(60%);
   }
+
+  
 }
+
+
