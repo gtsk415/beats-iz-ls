@@ -514,10 +514,24 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 100px;
   line-height: 1;
   text-decoration: none;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
 }
 .btn--theme--red {
   background-color: #E01F3D;
   color: white;
+}
+.btn--theme--red:hover {
+  background: #CA1B36;
+}
+.btn--theme--transparent {
+  background-color: transparent;
+  color: white;
+  text-transform: none;
+}
+.btn--theme--transparent:hover {
+  color: #292929;
 }
 
 .section {
@@ -533,6 +547,12 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+.section--font-color--white {
+  color: #ffffff;
+}
+.section--font-color--white .section__title {
+  color: inherit;
 }
 
 .section__title {
@@ -789,6 +809,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .form__controls:last-child {
   margin-bottom: 0;
+}
+
+.form__btn {
+  margin-top: 44px;
 }
 
 .radio {
