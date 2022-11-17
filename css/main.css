@@ -532,6 +532,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn--theme--transparent:hover {
   color: #292929;
+  color: initial;
 }
 
 .section {
@@ -566,6 +567,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .order-section {
   background-color: #292929;
+}
+
+.map-section {
+  background: url(../../images/backgrounds/map.png) center no-repeat;
+  background-size: 100%;
 }
 
 .headline {
@@ -863,4 +869,40 @@ h1, h2, h3, h4, h5, h6 {
 
 .radio__title {
   margin-right: 24px;
+}
+
+.fixed-menu {
+  position: fixed;
+  top: 20%;
+  right: 3%;
+  z-index: 100;
+}
+
+.fixed-menu__item {
+  margin-bottom: 5px;
+}
+.fixed-menu__item--active .fixed-menu__link {
+  border-color: #E01F3D;
+}
+
+.fixed-menu__link {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  display: block;
+  position: relative;
+}
+.fixed-menu__link:before {
+  content: "";
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #E01F3D;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
