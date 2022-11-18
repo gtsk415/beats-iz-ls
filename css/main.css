@@ -965,3 +965,35 @@ address {
   height: 14px;
   margin-right: 6px;
 }
+
+.benefits-section {
+  position: relative;
+}
+.benefits-section:before {
+  content: "";
+  width: 47px;
+  height: 11px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  background: #C4C4C4;
+  position: absolute;
+  top: 0;
+  right: 8%;
+}
+
+.order-section {
+  position: relative;
+}
+.order-section:before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  top: 0;
+  right: 8%;
+  -webkit-transform: rotate(-16deg);
+          transform: rotate(-16deg);
+  -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+          clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  background: #E01F3D;
+  position: absolute;
+}

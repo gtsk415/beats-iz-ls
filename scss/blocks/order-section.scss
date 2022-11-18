@@ -1,0 +1,15 @@
+.order-section {
+  position: relative;
+
+  &:before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    top: 0;
+    right: 8%;
+    transform: rotate(-16deg);
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    background: $red;
+    position: absolute;
+  }
+}
