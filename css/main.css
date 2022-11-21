@@ -923,26 +923,19 @@ address {
 }
 
 .socials {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.socials__item {
+.social__icon {
+  width: 30px;
+  height: 30px;
   margin-right: 10px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  fill: #B3B3B3;
 }
-.socials__item:hover {
-  -webkit-filter: brightness(5%);
-          filter: brightness(5%);
+.social__icon:hover {
+  fill: black;
 }
 
 .contacts__location {
