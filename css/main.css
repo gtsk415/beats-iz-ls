@@ -346,8 +346,10 @@ body {
 }
 
 .container {
+  width: 95%;
   margin: 0 auto;
-  width: 960px;
+  max-width: 960px;
+  position: relative;
 }
 
 * {
@@ -392,19 +394,9 @@ address {
   font-style: normal;
 }
 
-.hero {
+.hero__container {
   background: url("../../images/backgrounds/beats__solo__3.png") center right no-repeat;
   background-color: #F5F5F5;
-  width: 100%;
-  min-height: 650px;
-}
-
-.hero__title-section {
-  width: 46%;
-  margin-bottom: 85px;
-}
-
-.hero__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -417,6 +409,16 @@ address {
           justify-content: space-between;
   height: 100%;
   padding: 25px 0 50px;
+}
+
+.hero {
+  width: 100%;
+  min-height: 650px;
+}
+
+.hero__title-section {
+  width: 46%;
+  margin-bottom: 85px;
 }
 
 .hero__main-title {
@@ -981,7 +983,7 @@ address {
   content: "";
   width: 50px;
   height: 50px;
-  top: 0;
+  top: -25px;
   right: 8%;
   -webkit-transform: rotate(-16deg);
           transform: rotate(-16deg);
