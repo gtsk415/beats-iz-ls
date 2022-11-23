@@ -1,19 +1,38 @@
+html {
+  font-size: $baseFontSize;
+
+  @include tablets {
+    font-size: $baseFontSize - 1px;
+  }
+
+  @include phones {
+    font-size: $baseFontSize - 2px;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
 body {
-  // color: #fff;
-  font-size: 16px;
   font-family: Play, sans-serif;
   line-height: 1.42;
-  // background:#001821;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   font-style: normal;
 }
 
+.wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
 .container {
   width: 95%;
   margin: 0 auto;
-  max-width: 960px;
+  max-width: $containerWidht;
   position: relative;
 }
 

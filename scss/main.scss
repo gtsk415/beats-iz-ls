@@ -1,9 +1,10 @@
 @import "template/fonts";
 @import "template/normalize";
-@import "template/base";
+@import "template/layout";
 @import "template/variables";
 @import "blocks/hero";
 @import "blocks/header";
+@import "blocks/menu";
 @import "blocks/features";
 @import "blocks/feature";
 @import "blocks/btn";
@@ -21,7 +22,6 @@
 @import "blocks/addres";
 @import "blocks/benefits-section";
 @import "blocks/order-section";
-
 
 @import "media";
 

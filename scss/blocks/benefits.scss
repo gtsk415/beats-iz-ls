@@ -6,12 +6,12 @@
   flex: 1;
   padding: 0 3%;
   position: relative;
-  margin-bottom: 24px;
+  margin-bottom: rem(24px);
 
   &::before {
     content: url(../images/decor/circle_shape.svg);
     position: absolute;
-    top: 30px;
+    top: rem(30px);
     right: 0;
     transform: translateX(50%);
   }

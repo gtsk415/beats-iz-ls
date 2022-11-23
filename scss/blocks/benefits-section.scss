@@ -3,8 +3,8 @@
 
   &:before {
     content: "";
-    width: 47px;
-    height: 11px;
+    width: rem(47px);
+    height: rem(11px);
     transform: rotate(-45deg);
     background: #C4C4C4;
     position: absolute;
